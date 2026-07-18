@@ -1,0 +1,48 @@
+# 2. The Framework
+
+## Neutral-Centered Decision Space
+
+The main idea behind the **Neutral-Centered Bidirectional Decision-Learning Framework (NCBDLF)** is based on the concept that decision-making does not exist as a simple choice between two separate options. Instead, decisions exist within a **balanced space** that revolves around a central reference point.
+
+The framework introduces the concept of the **Neutral Base State**, represented as:
+
+\[
+\mathcal{N}_0
+\]
+
+The **Neutral Base State** is the point where every part of the system begins and where the system can return to when necessary. This neutral point acts as an anchor that maintains stability and prevents uncontrolled changes in learned weights.
+
+## Key Principles
+
+### Bidirectional Divergence
+
+In traditional systems, decisions are often treated as selecting between separate choices. In this framework, a decision is viewed as movement along a continuous direction within a decision space.
+
+A movement toward one decision state, such as option \(A\), influences the distance from another possible state, such as option \(B\). The system continuously evaluates these movements while maintaining balance around:
+
+\[
+\mathcal{N}_0
+\]
+
+This creates a natural balancing mechanism where decisions are not isolated choices but relationships between possible outcomes.
+
+### Decision-Learning Mechanics
+
+The framework does not simply memorize which options produce successful outcomes. Instead, it learns the relationship between decisions and their position relative to the **Neutral Base State**.
+
+This allows the system to:
+
+- Understand how decisions change relative to a stable reference point.
+- Evaluate relationships between different choices.
+- Return unstable decisions toward the neutral state.
+- Maintain learning stability over time.
+
+## Balanced Decision Evolution
+
+The Neutral-Centered Bidirectional Decision-Learning Framework focuses on how decisions evolve within a balanced space. Every decision is interpreted as movement away from or toward the Neutral Base State:
+
+\[
+\mathcal{N}_0
+\]
+
+By continuously referencing this neutral point, the system creates a learning process that remains adaptive, stable, and resistant to extreme shifts in decision behavior.
